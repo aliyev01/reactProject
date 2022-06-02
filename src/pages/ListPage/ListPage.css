@@ -1,16 +1,18 @@
 .list-page {
   padding: 0px calc(50% - 300px);
 }
-.list-page__title{
-display:flex;
-justify-content: center;
-background-color: #496DDB;
-}
-.list-page__single-movie{
-  margin-bottom: 15px;
-  background-color: bisque;
-}
 .con-list-page{
   display: flex;
   justify-content: center;
+}
+.list-page__single-movie{
+  margin-bottom: 15px;
+}
+.list-page__title{
+  display: flex;
+  justify-content: center;
+  background-color: #496DDB;
+}
+.info{
+  max-width:300px;
 }

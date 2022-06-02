@@ -27,6 +27,7 @@ class ListPage extends Component {
                   className="single-movie__poster"
                   alt={item.Title}
                 />
+            
                 <div className="info">
                   <h3 className="movie-item__title">{item.Title}</h3>
                   <h4 className="movie-item__about">О фильме</h4>

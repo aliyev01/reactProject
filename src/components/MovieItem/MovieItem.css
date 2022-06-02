@@ -7,12 +7,16 @@
 .movie-item__poster {
     height: 150px;
     margin-right: 21px;
+    max-width: 107px;
+    display: flex;
+    justify-content:center;
 }
 
 .movie-item__title {
     font-weight: 500;
     font-size: 17px;
     margin-bottom: 14px;
+    
 }
 
 .movie-item__add-button {
