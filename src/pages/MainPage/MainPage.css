@@ -7,7 +7,7 @@
 .main-page__main-section {
   padding-left: 30px;
   box-sizing: border-box;
-  width: 58%;
+  width: 55%;
 }
 
 .main-page__search-box {
@@ -30,7 +30,7 @@
     margin-top:10px;
   }
   .main-page__favorites {
-    width: 90%;
+    width: 85%;
   }
   .main-page__main-section {
     margin: 30px 0;

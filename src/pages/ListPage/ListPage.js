@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./ListPage.css";
 import { connect } from "react-redux";
 import { getList, getMovieInfoByImdbID } from "../../redux/actions";
-import Header from "../../components/Header/Header";
 class ListPage extends Component {
   state = {
     isClicked: false,
@@ -16,10 +15,10 @@ class ListPage extends Component {
   render() {
     console.log(this.props);
     return (
+      <div className="con-list-page">
       <div className="list-page">
-        <Header />
         <h1 className="list-page__title">{this.props.title}</h1>
-        <ul>
+        <ul >
           {this.props.movieDetails.map((item) => {
             return (
               <li key={item.imdbID} className="list-page__single-movie">
@@ -73,6 +72,7 @@ class ListPage extends Component {
             );
           })}
         </ul>
+      </div>
       </div>
     );
   }

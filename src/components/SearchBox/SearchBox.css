@@ -48,4 +48,13 @@
   .search-box__form-input {
     width: 320px;
   }
+  .search-box__form-input {
+    width: 68vw;
+  }
+  
+.search-box__form-submit {
+  width: 60px;
+  height: 28px;
+  margin-top: 19px;
+}
 }

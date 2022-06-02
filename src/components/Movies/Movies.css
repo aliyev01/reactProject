@@ -1,3 +1,8 @@
 .movies__item {
     margin-bottom: 21px;
 }
+@media screen and (min-width: 320px) and (max-width: 991px) {
+    .movies__item {
+        width: 91vw;
+    }
+  }
